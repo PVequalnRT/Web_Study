@@ -37,12 +37,14 @@ article #stitle {
 table {
   border: solid 2px grey;
   margin-left: 50px;
+  width: 70%
 }
 tr, td {
   border: solid 2px grey;
   text-align: center;
 }
 #tablehead {
+  color:blue;
   border: solid 10px black;
   background-color: grey;
 }
