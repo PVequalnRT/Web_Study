@@ -23,5 +23,23 @@ article {
   padding-left: 10px;
 }
 article #mtitle {
-  
+  margin-bottom: 3px;
+}
+
+article #stitle {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+table {
+  border: solid 2px grey;
+  margin-left: 20px;
+}
+tr, td {
+  border: solid 2px grey;
+  text-align: center;
+}
+#tablehead {
+  border: solid 10px black;
+  background-color: grey;
 }
