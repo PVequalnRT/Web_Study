@@ -9,6 +9,7 @@ h1 {
   padding-left: 5px;
   margin: 0px;
   grid-template-columns: 150px 1fr;
+  border-bottom: 2px grey solid;
 }
 #index{
   border-right:2px grey solid;
@@ -20,4 +21,7 @@ h1 {
 }
 article {
   padding-left: 10px;
+}
+article #mtitle {
+  
 }
