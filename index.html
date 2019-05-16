@@ -11,15 +11,16 @@
       <div id="index"><!--인덱스 시작-->
         <span>1. 변수</span>
         <div id="item">
-          <span>1.1. 정수형</span>
+          <span>1.1. 숫자형</span>
+          <span><br>1.2. 문자형</span>
         </div>
         <span><br>2. 입출력</span>
       </div> <!--인덱스 종료-->
       <article><!--본문 시작-->
         <div> <!--1. 변수 시작-->
           <h2 id="mtitle">1. 변수</h2>
-          <div> <!--1.1. 정수형 시작-->
-           <h3 id="stitle">1.1. 정수형</h3>
+          <div> <!--1.1. 숫자형 시작-->
+           <h3 id="stitle">1.1. 숫자형</h3>
            <table>
              <tr id="tablehead">
                <td>코드</td>
@@ -27,28 +28,28 @@
                <td>기타</td>
              </tr>
              <tr>
-               <td><code>a, b = 1, 2</code></td>
-               <td>정수형 변수 선언</td>
+               <td>a, b = 1.5, 2</td>
+               <td>숫자형 변수 선언</td>
                <td></td>
              </tr>
              <tr>
                <td>a + b</td>
-               <td>정수의 덧셈</td>
+               <td>숫자의 덧셈</td>
                <td></td>
              </tr>
              <tr>
                <td>a - b</td>
-               <td>정수의 뺄셈</td>
+               <td>숫자의 뺄셈</td>
                <td></td>
              </tr>
              <tr>
                <td>a * b</td>
-               <td>정수의 곱셈</td>
+               <td>숫자의 곱셈</td>
                <td></td>
              </tr>
              <tr>
                <td>a / b</td>
-               <td>정수의 나눗셈</td>
+               <td>숫자의 나눗셈</td>
                <td></td>
              </tr>
              <tr>
@@ -67,7 +68,67 @@
                <td></td>
              </tr>
            </table>
-         </div> <!--1.1. 정수형 종료-->
+         </div> <!--1.1. 숫자형 종료-->
+         <div><!--1.2. 문자형 시작-->
+           <h3 id="stitle">1.2. 문자형</h3>
+           <table>
+             <tr id="tablehead">
+               <td>코드</td>
+               <td>설명</td>
+               <td>기타</td>
+             </tr>
+             <tr>
+               <td>a = 'Hello!'</td>
+               <td>문자형 변수 선언</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>a + 'World\"'</td>
+               <td>문자열 합치기</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>a * 2</td>
+               <td>2번 반복</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>len(a)</td>
+               <td>문자열 길이 구하기</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>a[1:5], b[:3], c[2:-1]</td>
+               <td>문자열 인덱싱 및 슬라이싱</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>"I love %5s %-7d" % ('you', 3000)</td>
+               <td>%를 이용한 문자열 포맷팅</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>"I love {0:*>10} {1}".format('you',3000)</td>
+               <td>format을 이용한 포맷팅</td>
+               <td></td>
+             </tr>
+             <tr>
+               <td>f."I love {name}"</td>
+               <td>f를 이용한 포맷팅</td>
+               <td>name = 'you'</td>
+             </tr>
+             <tr>
+               <td>a.find('l')</td>
+               <td>문자 l이 처음나온 위치 반환</td>
+               <td>~존재 -> -1반환</td>
+             </tr>
+             <tr>
+               <td>a.index('l')</td>
+               <td>문자 l이 처음나온 위치 반환</td>
+               <td>~존재 -> 에러</td>
+             </tr>
+           </table>
+         </div><!--1.2. 문자형 종료-->
        </div><!--1. 변수 종료-->
         <div>
           <h2 id="mtitle">2. 입출력</h2>
